@@ -2,6 +2,11 @@
 <html>
     <head>
         <title></title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
     </head>
     <body>
         <h3>Navigation</h3>
@@ -17,10 +22,30 @@
             <li>SQL</li>
         </ul>
         <h2>Education</h2>
-        <ul>
-            <li>BS of Computer Science from Southern Tech</li>
-            <li>Attended Embry-Riddle Aeronatic University</li>
-        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Institution</th>
+                    <th>Field of Study</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Embry-Riddle Aeronautic University</td>
+                    <td>Aeronautical Engineering</td>
+                    <td>Jan 1989</td>
+                    <td>May 1989</td>
+                </tr>
+                <tr>
+                    <td>Southern Tech</td>
+                    <td>Computer Science</td>
+                    <td>Aug 1989</td>
+                    <td>Jun 1994</td>
+                </tr>
+            </tbody>
+        </table>
         <h2>Certifications</h2>
         <ul>
             <li>Working on AWS Solutions Architect Assistant Certification</li>
